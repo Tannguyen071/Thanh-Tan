@@ -1,0 +1,60 @@
+h2{
+    color: blue;
+    background-color: rgb(241, 14, 14);
+}
+
+h3{
+    color: brown;
+}
+.para{
+    color: purple;
+    font-size: 20px;
+}
+#mypara{
+    color: red;
+}
+
+div{
+    color: blue;
+}
+/*{
+    color: green;
+}*/
+
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: yellow;
+    background-color: red;
+}
+
+h4::first-letter{
+    color: red;
+}
+
+h5::first-line{
+    color: brown;
+}
+
+p:first-child{
+    color: orange;
+}
+h6::before{
+    content: 'Insert before';
+    background-color:blue;
+}
+
+h6::after{
+    content: 'Insert after';
+    background-color: red;
+}
